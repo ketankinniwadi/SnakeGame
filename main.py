@@ -39,8 +39,6 @@ while is_game_on:
 
     for segment in cobra.segments[1::]:
 
-
-
         if cobra.head.distance(segment) < 10:
             cobra.reset()
             scoreboard.reset()
